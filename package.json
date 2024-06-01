@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.3"
+  }
+}
