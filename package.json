@@ -5,14 +5,21 @@
     "packages/*"
   ],
   "dependencies": {
+    "babel-loader": "^9.1.3",
+    "babel-preset-react-app": "^10.0.1",
     "chalk": "^4.0.0",
     "cross-spawn": "^7.0.3",
-    "fs-extra": "^11.2.0"
+    "fs-extra": "^11.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "open": "^10.1.0",
+    "webpack": "^5.91.0",
+    "webpack-dev-server": "^5.0.4"
   },
   "devDependencies": {
     "lerna": "^8.1.3"
   },
   "scripts": {
-    "create-react-app": "node ./packages/create-react-app/index.js"
+    "create-react-app": "node ./packages/create-react-app/index.js",
+    "build": "node ./packages/react-scripts/bin/react-scripts.js build"
   }
 }

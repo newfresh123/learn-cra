@@ -1,0 +1,1 @@
+(()=>{const a=r=>[].concat(...r.map((r=>Array.isArray(r)?a(r):r)));a([1,[2],[[3],4],5])})();
