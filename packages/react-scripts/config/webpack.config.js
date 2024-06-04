@@ -13,6 +13,9 @@ module.exports = function (webpackEnv) {
     output: {
       path:paths.appBuild
     },
+    devServer: {
+
+    },
     module: {
       rules: [
         {

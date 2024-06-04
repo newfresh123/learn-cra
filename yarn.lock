@@ -1045,7 +1045,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/preset-react@^7.16.0":
+"@babel/preset-react@^7.16.0", "@babel/preset-react@^7.24.6":
   version "7.24.6"
   resolved "https://registry.npmmirror.com/@babel/preset-react/-/preset-react-7.24.6.tgz#92eace66dce577e5263113eb82235a0d45096cae"
   integrity sha512-8mpzh1bWvmINmwM3xpz6ahu57mNaWavMm+wBNjQ4AFu1nghKBiIRET7l/Wmj4drXany/BBGjJZngICcD98F1iw==

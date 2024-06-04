@@ -20,10 +20,13 @@
     "type": "git",
     "url": "git+https://github.com/newfresh123/learn-cra.git"
   },
-  "bin":{
+  "bin": {
     "react-scripts": "./bin/react-scripts.js"
   },
   "bugs": {
     "url": "https://github.com/newfresh123/learn-cra/issues"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.24.6"
   }
 }

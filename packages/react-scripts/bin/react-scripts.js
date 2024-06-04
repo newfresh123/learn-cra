@@ -3,6 +3,7 @@
 const spawn = require('cross-spawn')
 const args = process.argv.slice(2) //获取命令行参数 build
 const scripts = args[0]
+debugger
 spawn.sync(
   process.execPath, //node执行路径
   [require.resolve('../scripts/' + scripts)],

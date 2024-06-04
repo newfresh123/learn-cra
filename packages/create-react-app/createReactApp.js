@@ -64,6 +64,7 @@ async function run(root, projectName, originalDirectory) {
 async function executeNodeScript({cwd},data,source) {
   return new Promise(resolve => {
     //node可执行文件路径 -e 执行的代码 -- 传递的参数
+    debugger
     const child = spawn(process.execPath, ['-e', source, '--', JSON.stringify(data)], {
       cwd,
       stdio: 'inherit'

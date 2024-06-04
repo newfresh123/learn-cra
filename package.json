@@ -20,6 +20,7 @@
   },
   "scripts": {
     "create-react-app": "node ./packages/create-react-app/index.js",
-    "build": "node ./packages/react-scripts/bin/react-scripts.js build"
+    "build": "node ./packages/react-scripts/bin/react-scripts.js build",
+    "start": "node ./packages/react-scripts/bin/react-scripts.js start"
   }
 }
